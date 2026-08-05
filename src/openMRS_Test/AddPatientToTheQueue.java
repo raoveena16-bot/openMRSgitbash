@@ -14,7 +14,7 @@ public class AddPatientToTheQueue {
 	StartVisit startVisit;
 	
 	
-	@Test
+	@Test(priority=1)
 	public void AddPatient() {
 		
 		WebDriver driver = new ChromeDriver();
