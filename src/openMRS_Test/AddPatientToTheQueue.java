@@ -18,7 +18,7 @@ public class AddPatientToTheQueue {
 	public void AddPatient() {
 		
 		WebDriver driver = new ChromeDriver();
-		
+		//using Page Object Model
 		page = new LoginPage(driver);
 		page.launchApp();
 		page.login();
